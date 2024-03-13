@@ -47,3 +47,20 @@ exercises.c:50:24: error: ‘newArr’ is used uninitialized [-Werror=uninitiali
 cc1: all warnings being treated as errors
 Compilation failed
 9bf89a6
+Wed 13 Mar 2024 09:19:14 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:1:
+exercises.c: In function ‘filterEvenNumbers’:
+exercises.c:51:23: error: statement with no effect [-Werror=unused-value]
+   51 |   if (newArr == NULL) (EXIT_FAILURE);
+      |                       ^
+exercises.c:64:10: error: returning ‘int’ from a function with return type ‘int *’ makes pointer from integer without a cast [-Werror=int-conversion]
+   64 |   return cont;
+      |          ^~~~
+exercises.c:50:24: error: ‘newArr’ is used uninitialized [-Werror=uninitialized]
+   50 |   int *newArr = (int *)realloc(newArr, *newSize * sizeof(int));
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+de352cb

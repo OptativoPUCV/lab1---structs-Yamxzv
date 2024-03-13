@@ -11,16 +11,17 @@ y su tamaño, y devuelva el valor más grande del arreglo.
 */
 int findMax(int arr[], int size) 
 { 
-  int max = arr[0];
+  int maximo = arr[0];
+  
   for (int i = 1; i < size; i++)
     {
-      if (arr[i] > max)
+      if (arr[i] > maximo)
       {
-        max = arr[i];
+        maximo = arr[i];
       }
     }
   
-  return max;
+  return maximo;
 }
 
 /*
@@ -30,16 +31,7 @@ invierta el orden de sus elementos.
 */
 void reverseArray(int arr[], int size) 
 {
-  int start = 0;
-  int end = size - 1;
-  while (start < end)
-  {
-    int temp = arr[start];
-    arr[start] = arr[end];
-    arr[end] = temp;
-    start++;
-    end--;
-  }
+  
 }
 
 /*
@@ -48,7 +40,10 @@ Descripción: Escribe una función que tome un arreglo de enteros
 y su tamaño, y luego devuelva un nuevo arreglo que contenga solo
 los números pares del arreglo original.
 */
-int *filterEvenNumbers(int arr[], int size, int *newSize) { return NULL; }
+int *filterEvenNumbers(int arr[], int size, int *newSize) { 
+  
+  return NULL; 
+}
 
 /*
 Ejercicio 4: Fusión de dos Arreglos Ordenados

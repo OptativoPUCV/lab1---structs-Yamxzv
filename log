@@ -78,3 +78,14 @@ exercises.c:50:24: error: ‘newArr’ is used uninitialized [-Werror=uninitiali
 cc1: all warnings being treated as errors
 Compilation failed
 ddba870
+Wed 13 Mar 2024 09:21:49 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:1:
+test.c: In function ‘filterEvenNumbers’:
+exercises.c:50:24: error: ‘newArr’ is used uninitialized [-Werror=uninitialized]
+   50 |   int *newArr = (int *)realloc(newArr, *newSize * sizeof(int));
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+8cc7b54

@@ -192,3 +192,9 @@ exercises.c:75:21: error: unused variable ‘k’ [-Werror=unused-variable]
 cc1: all warnings being treated as errors
 Compilation failed
 7b9921c
+Thu 14 Mar 2024 10:22:26 PM UTC: 
+ exercises.c | 24 ++++++++++++++++++++----
+ 1 file changed, 20 insertions(+), 4 deletions(-)
+ tests:  0|4
+total_score: 30/70
+5a0c4ff

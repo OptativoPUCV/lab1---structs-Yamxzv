@@ -151,3 +151,44 @@ Thu 14 Mar 2024 10:01:54 PM UTC:
  tests:  0|4
 total_score: 30/70
 3bba3cf
+Thu 14 Mar 2024 10:04:42 PM UTC: 
+ exercises.c | 10 +++++++---
+ 1 file changed, 7 insertions(+), 3 deletions(-)
+Thu 14 Mar 2024 10:05:04 PM UTC: 
+ exercises.c | 10 +++++++---
+ 1 file changed, 7 insertions(+), 3 deletions(-)
+Thu 14 Mar 2024 10:07:24 PM UTC: 
+ exercises.c | 10 +++++++---
+ 1 file changed, 7 insertions(+), 3 deletions(-)
+Thu 14 Mar 2024 10:07:42 PM UTC: 
+ exercises.c | 10 +++++++---
+ 1 file changed, 7 insertions(+), 3 deletions(-)
+Thu 14 Mar 2024 10:07:45 PM UTC: 
+ exercises.c | 10 +++++++---
+ 1 file changed, 7 insertions(+), 3 deletions(-)
+Thu 14 Mar 2024 10:10:47 PM UTC: 
+ exercises.c | 11 ++++++++---
+ 1 file changed, 8 insertions(+), 3 deletions(-)
+Thu 14 Mar 2024 10:15:52 PM UTC: 
+ exercises.c | 11 ++++++++---
+ 1 file changed, 8 insertions(+), 3 deletions(-)
+Thu 14 Mar 2024 10:15:58 PM UTC: 
+ exercises.c | 11 ++++++++---
+ 1 file changed, 8 insertions(+), 3 deletions(-)
+Thu 14 Mar 2024 10:16:04 PM UTC: 
+ exercises.c | 11 ++++++++---
+ 1 file changed, 8 insertions(+), 3 deletions(-)
+Thu 14 Mar 2024 10:16:36 PM UTC: 
+ exercises.c | 10 +++++++---
+ 1 file changed, 7 insertions(+), 3 deletions(-)
+Thu 14 Mar 2024 10:17:23 PM UTC: 
+ exercises.c | 8 ++++++--
+ 1 file changed, 6 insertions(+), 2 deletions(-)
+In file included from test.c:1:
+exercises.c: In function ‘mergeSortedArrays’:
+exercises.c:75:21: error: unused variable ‘k’ [-Werror=unused-variable]
+   75 |   int i = 0, j = 0, k = 0;
+      |                     ^
+cc1: all warnings being treated as errors
+Compilation failed
+7b9921c

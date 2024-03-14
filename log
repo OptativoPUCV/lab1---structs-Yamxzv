@@ -99,3 +99,13 @@ exercises.c:50:62: error: expected statement before ‘)’ token
       |                                                              ^
 Compilation failed
 7518163
+Thu 14 Mar 2024 09:37:07 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:1:
+exercises.c: In function ‘filterEvenNumbers’:
+exercises.c:50:64: error: expected statement before ‘)’ token
+   50 |   int *newArr = (int *)realloc(NULL, (*newSize) * sizeof(int));)
+      |                                                                ^
+Compilation failed
+1c2758c

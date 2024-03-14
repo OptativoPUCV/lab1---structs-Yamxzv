@@ -52,13 +52,13 @@ int *filterEvenNumbers(int arr[], int size, int *newSize)
 
   *newSize = 0;
   for (int i = 0; i < size; i++)
-  {
-    if (arr[i] % 2 == 0)
     {
-      (*newSize)++;
-      newArr[*newSize - 1] = arr[i];
+      if (arr[i] % 2 == 0)
+      {
+        (*newSize)++;
+        newArr[*newSize - 1] = arr[i];
+      }
     }
-  }
   
   return newArr;
 }
@@ -70,7 +70,17 @@ ordenados y sus tamaños, y luego fusione estos dos
 arreglos en un tercer arreglo también ordenado.
 */
 void mergeSortedArrays(int arr1[], int size1, int arr2[], int size2,
-                       int result[]) {}
+                       int result[]) 
+{
+  int newSize = size1 + size2;
+  for (int i = 0; i < newSize; i++)
+    {
+      if (i < size1)
+      {
+        result[i] = arr1[i];
+      }
+    }
+}
 
 /*
 Ejercicio 5: Comprobación de Ordenación

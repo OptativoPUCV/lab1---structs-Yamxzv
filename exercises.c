@@ -114,8 +114,8 @@ int checkSorted(int arr[], int size)
     break;
   }
 
-  if (ascendente == 1) return 1;
-  else if (descendente == 1) return -1;
+  if (ascendente) return 1;
+  else if (descendente) return -1;
   else return 0;
 
 }
